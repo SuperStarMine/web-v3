@@ -1,0 +1,4 @@
+favicon.ico
+global.css
+build/bundle.css
+build/bundle.js
