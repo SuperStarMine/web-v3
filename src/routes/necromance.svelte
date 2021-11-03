@@ -23,7 +23,7 @@
     title: 'れーぞく！ネクロマンスちゃん - SUPER STARMINE',
     url: 'https://superstarmine.com/necromance',
     description: '「セカイを”れーぞく”せよ！」──最凶の魔女ネクロマンスとともに魔女伝説の謎を解き明かすべく戦う、全方位シューティングゲーム「れーぞく！ネクロマンスちゃん」の公式サイトです。',
-    image: 'https://placehold.jp/1200x630.png',
+    image: 'https://superstarmine.com/necromance_ogp.png',
     canonical: 'https://superstarmine.com/necromance',
   };
   </script>

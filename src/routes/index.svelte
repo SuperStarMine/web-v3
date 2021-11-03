@@ -39,7 +39,7 @@ vendorarg(prop, arg)
 :global(html, body, main, #svelte)
   margin 0
   width 100%
-  height 100%
+  min-height 100%
   vendor(text-size-adjust, 100%)
   font-family -apple-system, 'BlinkMacSystemFont', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Helvetica Neue', 'Helvetica', 'Arial', system-ui, sans-serif
 
