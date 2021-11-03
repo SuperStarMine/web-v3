@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 362 354">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="DynamicGuides" value="1"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path d="M180.983+0.47C81.0358+0.47+0+81.5058+0+181.476C0+261.445+51.8571+329.28+123.782+353.225C132.837+354.881+136.138+349.292+136.138+344.492C136.138+340.203+135.982+328.813+135.893+313.713C85.5471+324.647+74.9245+289.446+74.9245+289.446C66.6909+268.534+54.8239+262.967+54.8239+262.967C38.3901+251.744+56.0684+251.967+56.0684+251.967C74.2356+253.244+83.7915+270.623+83.7915+270.623C99.9364+298.279+126.159+290.29+136.471+285.657C138.115+273.967+142.782+265.989+147.96+261.467C107.77+256.9+65.5131+241.366+65.5131+172.009C65.5131+152.252+72.5689+136.096+84.147+123.44C82.2803+118.863+76.069+100.462+85.9137+75.539C85.9137+75.539+101.114+70.6721+135.693+94.0951C150.127+90.0727+165.616+88.0727+181.006+88.006C196.373+88.0727+211.862+90.0727+226.318+94.0951C260.875+70.6721+276.042+75.539+276.042+75.539C285.92+100.462+279.709+118.863+277.842+123.44C289.442+136.096+296.454+152.252+296.454+172.009C296.454+241.544+254.13+256.845+213.807+261.322C220.307+266.912+226.096+277.956+226.096+294.846C226.096+319.035+225.874+338.558+225.874+344.492C225.874+349.336+229.129+354.97+238.318+353.203C310.187+329.213+362+261.422+362+181.476C362+81.5058+280.953+0.47+180.983+0.47" opacity="1" fill="#ffffff"/>
+</g>
+</svg>
