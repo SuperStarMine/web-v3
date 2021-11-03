@@ -7,16 +7,16 @@ export const settings = [
       aspectRatio: { width: 157213, height: 60041 },
       imageExtensionsShort: ['svg'],
       items: [
-        {id: 'top', label: '作品'},
-        {id: 'news', label: 'ニュース'},
-        {id: 'about', label: 'チームについて'},
-        {id: 'members', label: 'メンバー'}
+        { id: 'top', label: '作品' },
+        { id: 'news', label: 'ニュース' },
+        { id: 'about', label: 'チームについて' },
+        { id: 'members', label: 'メンバー' }
       ]
     }
   },
   {
     sectionType: 'slideHero',
-    pairId: 'hero',
+    pairId: 'hero'
   },
   {
     sectionType: 'slideDesc',
@@ -30,7 +30,7 @@ export const settings = [
           themeColor: '#ed773e',
           imageId: 'necromance_ss',
           alt: 'れーぞく！ネクロマンスちゃんのプレイ画面',
-          aspectRatio: {width: 16, height: 9},
+          aspectRatio: { width: 16, height: 9 },
           description: [
             'スーパースターマイン第一作目のSTG。',
             '敵弾をスレスレでかわすことで強大な必殺技をブッ放せる、という『れーぞくシステム』を搭載。リスクとリターンの取捨選択に手に汗握る、白熱したバトルを楽しめる。',
@@ -57,7 +57,7 @@ export const settings = [
               {
                 year: '2019',
                 month: '8',
-                annotation: '〜',
+                annotation: '〜'
               }
             ],
             platforms: [
@@ -80,7 +80,7 @@ export const settings = [
           themeColor: '#464646',
           imageId: 'spinner_ss',
           alt: 'SPINNERのプレイ画面',
-          aspectRatio: {width: 16, height: 9},
+          aspectRatio: { width: 16, height: 9 },
           description: [
             'ハンドルコントローラーを用いて戦う1vs1のホッケーゲーム。',
             'ゴールがなく、パックが端のラインを超えると対となるラインにワープするという仕様が特徴。',
@@ -90,7 +90,8 @@ export const settings = [
           buttons: [
             {
               title: '紹介記事を読む',
-              target: 'https://game.creators-guild.com/g4c/%e3%82%b2%e3%83%bc%e3%83%a0%e6%a5%ad%e7%95%8c%e4%ba%a4%e6%b5%81%e4%bc%9a%e3%81%ab%e6%bd%9c%e5%85%a5%ef%bc%81/'
+              target:
+                'https://game.creators-guild.com/g4c/%e3%82%b2%e3%83%bc%e3%83%a0%e6%a5%ad%e7%95%8c%e4%ba%a4%e6%b5%81%e4%bc%9a%e3%81%ab%e6%bd%9c%e5%85%a5%ef%bc%81/'
             }
           ],
           specs: {
@@ -98,7 +99,7 @@ export const settings = [
               {
                 year: '2019',
                 month: '11',
-                annotation: '(2週間)',
+                annotation: '(2週間)'
               }
             ],
             platforms: [
@@ -121,7 +122,7 @@ export const settings = [
           themeColor: '#b56c4e',
           imageId: 'cup-run_ss',
           alt: 'CUPRUNMENのプレイ画面',
-          aspectRatio: {width: 16, height: 9},
+          aspectRatio: { width: 16, height: 9 },
           description: [
             '初となるフルリモート体制で制作したランゲーム。',
             '技術的にユニークな点として、「プレイヤーの向きとステージの法線ベクトルから溢れるスープ量を算出する」という処理を行っている。',
@@ -131,10 +132,7 @@ export const settings = [
           buttons: [
             {
               popup: '今すぐプレイ',
-              title: [
-                'unityroomで',
-                '遊ぶ'
-              ],
+              title: ['unityroomで', '遊ぶ'],
               target: 'https://unityroom.com/games/cuprunmen'
             }
           ],
@@ -149,7 +147,7 @@ export const settings = [
               {
                 year: '2020',
                 month: '4',
-                annotation: '(5日)',
+                annotation: '(5日)'
               }
             ],
             platforms: [
@@ -165,7 +163,7 @@ export const settings = [
           themeColor: '#4ae0ef',
           imageId: 'fall_in_parfait-ss1',
           alt: 'フォーリンパフェのプレイ画面',
-          aspectRatio: {width: 16, height: 9},
+          aspectRatio: { width: 16, height: 9 },
           description: [
             '2020年8月に開催されたUnity1Weekで制作したゲーム。',
             '『上から落ちてくる材料を器でキャッチしてパフェを作る』というシンプルな操作性ながら、パフェを大きくなるにつれて爆弾に当たりやすくなる、オンラインランキングの実装といった工夫により、上級者にとってもやり込みがいのあるゲームとなった。',
@@ -178,10 +176,7 @@ export const settings = [
           buttons: [
             {
               popup: '今すぐプレイ',
-              title: [
-                'unityroomで',
-                '遊ぶ'
-              ],
+              title: ['unityroomで', '遊ぶ'],
               target: 'https://unityroom.com/games/fallinparfait'
             }
           ],
@@ -196,12 +191,12 @@ export const settings = [
               {
                 year: '2020',
                 month: '8',
-                annotation: '(1週間)',
+                annotation: '(1週間)'
               },
               {
                 year: '2020',
                 month: '12',
-                annotation: '(1ヶ月)',
+                annotation: '(1ヶ月)'
               }
             ],
             platforms: [
@@ -226,7 +221,7 @@ export const settings = [
           subtitle: '爆買いアクションランゲーム',
           themeColor: '#da3c26',
           imageId: 'bakugai-img',
-          aspectRatio: {width: 1, height: 1},
+          aspectRatio: { width: 1, height: 1 },
           alt: '',
           description: [
             'フォーリンパフェに続く、Unity1Week二作目。',
@@ -237,10 +232,7 @@ export const settings = [
           buttons: [
             {
               popup: '今すぐプレイ',
-              title: [
-                'unityroomで',
-                '遊ぶ'
-              ],
+              title: ['unityroomで', '遊ぶ'],
               target: 'https://unityroom.com/games/bakugaimarket'
             }
           ],
@@ -255,7 +247,7 @@ export const settings = [
               {
                 year: '2020',
                 month: '2',
-                annotation: '(12日)',
+                annotation: '(12日)'
               }
             ],
             platforms: [
@@ -278,7 +270,8 @@ export const settings = [
       shownItemsCount: 3,
       articles: [
         {
-          title: '『フォーリンパフェ』がデベロッパーズゲームコンテスト2020にて企業賞（f4samurai賞）を受賞！',
+          title:
+            '『フォーリンパフェ』がデベロッパーズゲームコンテスト2020にて企業賞（f4samurai賞）を受賞！',
           date: {
             year: '2021',
             month: '1',
@@ -296,7 +289,8 @@ export const settings = [
           url: 'https://www.dendai.ac.jp/dendai-people/20210128-01.html'
         },
         {
-          title: '『れーぞく！ネクロマンスちゃん』がゲームクリエイター甲子園2020にて総合大賞3位、審査員特別賞（鈴木英仁賞）、話題賞を受賞！',
+          title:
+            '『れーぞく！ネクロマンスちゃん』がゲームクリエイター甲子園2020にて総合大賞3位、審査員特別賞（鈴木英仁賞）、話題賞を受賞！',
           date: {
             year: '2020',
             month: '12',
@@ -314,7 +308,8 @@ export const settings = [
           url: 'http://digigame-expo.org/'
         },
         {
-          title: '『フォーリンパフェ』がUnity 1Weekゲームジャムにて総合ランキング、絵作りランキングに入賞！',
+          title:
+            '『フォーリンパフェ』がUnity 1Weekゲームジャムにて総合ランキング、絵作りランキングに入賞！',
           date: {
             year: '2020',
             month: '8',
@@ -329,7 +324,8 @@ export const settings = [
             month: '2',
             day: '6'
           },
-          url: 'https://game.creators-guild.com/g4c/%E3%82%B2%E3%83%BC%E3%83%A0%E6%A5%AD%E7%95%8C%E4%BA%A4%E6%B5%81%E4%BC%9A%E3%81%AB%E6%BD%9C%E5%85%A5%EF%BC%81/'
+          url:
+            'https://game.creators-guild.com/g4c/%E3%82%B2%E3%83%BC%E3%83%A0%E6%A5%AD%E7%95%8C%E4%BA%A4%E6%B5%81%E4%BC%9A%E3%81%AB%E6%BD%9C%E5%85%A5%EF%BC%81/'
         },
         {
           title: 'ゲームクリエイターズギルド様からインタビューをしていただきました！',
@@ -371,16 +367,15 @@ export const settings = [
       aspectRatio: { width: 157213, height: 60041 },
       imageExtensionsShort: ['svg'],
       article: [
-        "スーパースターマインは大学サークル発、新進気鋭のゲーム制作チーム。",
-        "面白いものが大好きです。"
+        'スーパースターマインは大学サークル発、新進気鋭のゲーム制作チーム。',
+        '面白いものが大好きです。'
       ],
       bottomButtonsLayout: 'left',
       bottomButtons: [
         {
-          title: [
-            'お問い合わせ'
-          ],
-          target: 'https://docs.google.com/forms/d/e/1FAIpQLSd6Z3feC7onaq9SJa1Blfdd7frPFCsm4zQUCfQr9XqPxM3gzA/viewform'
+          title: ['お問い合わせ'],
+          target:
+            'https://docs.google.com/forms/d/e/1FAIpQLSd6Z3feC7onaq9SJa1Blfdd7frPFCsm4zQUCfQr9XqPxM3gzA/viewform'
         },
         {
           title: 'Twitter',
@@ -397,19 +392,16 @@ export const settings = [
     contents: {
       logoImageId: 'ssm-logo',
       logoImageExtensionsShort: ['svg'],
-      logoAspectRatio: {width: 47581, height: 90047},
+      logoAspectRatio: { width: 47581, height: 90047 },
       backfaceLogoImageId: 'ssm-logo-landscape',
       backfaceLogoImageExtensionsShort: ['svg'],
-      backfaceLogoAspectRatio: {width: 157213, height: 60041},
+      backfaceLogoAspectRatio: { width: 157213, height: 60041 },
       imageDirectory: './img/members/',
       cards: [
         {
           name: 'マチコー',
           imageId: 'machiko',
-          post: [
-            'リーダー',
-            'プランナー'
-          ],
+          post: ['リーダー', 'プランナー'],
           accounts: [
             {
               name: 'twitter',
@@ -430,10 +422,7 @@ export const settings = [
         {
           name: 'いーだ',
           imageId: 'i-da',
-          post: [
-            'プログラマー',
-            'マスタリングエンジニア'
-          ],
+          post: ['プログラマー', 'マスタリングエンジニア'],
           accounts: [
             {
               name: 'twitter',
@@ -450,10 +439,7 @@ export const settings = [
         {
           name: 'Amu',
           imageId: 'amu',
-          post: [
-            'UI/ロゴデザイナー',
-            'エフェクトクリエーター'
-          ],
+          post: ['UI/ロゴデザイナー', 'エフェクトクリエーター'],
           accounts: [
             {
               name: 'twitter',
@@ -466,10 +452,7 @@ export const settings = [
         {
           name: 'HIBIKI CUBE',
           imageId: 'hibiki',
-          post: [
-            'Webエンジニア',
-            'CGモデラー'
-          ],
+          post: ['Webエンジニア', 'CGモデラー'],
           accounts: [
             {
               name: 'twitter',
@@ -494,10 +477,7 @@ export const settings = [
         {
           name: 'Matsu',
           imageId: '',
-          post: [
-            'プログラマー',
-            'レベルデザイナー'
-          ],
+          post: ['プログラマー', 'レベルデザイナー'],
           accounts: [
             {
               name: 'twitter',
@@ -514,9 +494,7 @@ export const settings = [
         {
           name: 'ナミー',
           imageId: '',
-          post: [
-            'デバッガー'
-          ],
+          post: ['デバッガー'],
           accounts: [
             {
               name: 'twitter',
@@ -529,9 +507,7 @@ export const settings = [
         {
           name: 'えちょ',
           imageId: 'echo',
-          post: [
-            'レベルデザイナー'
-          ],
+          post: ['レベルデザイナー'],
           accounts: [
             {
               name: 'twitter',
@@ -544,9 +520,7 @@ export const settings = [
         {
           name: '十二月ねこ',
           imageId: '',
-          post: [
-            'CGモデラー'
-          ],
+          post: ['CGモデラー'],
           accounts: [
             {
               name: 'twitter',
@@ -559,9 +533,7 @@ export const settings = [
         {
           name: 'かずえもん',
           imageId: 'kazuemon',
-          post: [
-            'Webデザイナー'
-          ],
+          post: ['Webデザイナー'],
           accounts: [
             {
               name: 'twitter',
@@ -577,7 +549,7 @@ export const settings = [
               name: 'github',
               id: 'kazuemon',
               customUrl: '//k6n.jp/gh'
-            },
+            }
           ],
           backfaceColor: '#e8a127',
           backfaceLogoBrightness: 10
@@ -585,10 +557,7 @@ export const settings = [
         {
           name: 'NEO',
           imageId: 'neo',
-          post: [
-            'エフェクト',
-            'サウンドデザイン'
-          ],
+          post: ['エフェクト', 'サウンドデザイン'],
           accounts: [
             {
               name: 'twitter',
@@ -597,16 +566,14 @@ export const settings = [
             {
               name: 'github',
               id: 'NEON1212121'
-            },
+            }
           ],
           backfaceColor: '#7de8bd',
           backfaceLogoBrightness: 10
         },
         {
           name: 'すぎのこ',
-          post: [
-            '3Dモデラー',
-          ],
+          post: ['3Dモデラー'],
           accounts: [
             {
               name: 'twitter',
@@ -627,11 +594,11 @@ export const settings = [
       codeLicense: {
         license: 'mpl-2.0',
         linkLabel: 'GitHub',
-        url: 'https://github.com/HIBIKI-CUBE/superstarmine-web',
+        url: 'https://github.com/HIBIKI-CUBE/superstarmine-web'
       },
       assetsLicense: {
         ccType: 'by-nd'
       }
     }
   }
-]
+];

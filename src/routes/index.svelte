@@ -8,7 +8,6 @@
   import Cards from "../components/cards.svelte";
   import { settings } from "../toppageSettings.js";
   import { globalSettings } from '../globalSettings.js';
-  import { sync } from '../sync-store.js';
   import Button from '../components/button.svelte';
 </script>
 

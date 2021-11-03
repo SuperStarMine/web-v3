@@ -2,19 +2,20 @@
   import Picture from './picture.svelte';
   import Lines from './lines.svelte';
   import Button from './button.svelte';
+  import { t } from 'svelte-intl-precompile';
 </script>
 
 <div class="wrapper">
   <Picture imageId="foh7rj5YI_E"/>
   <div class="content" style="--bg-color: #F7931E; --fg-color: #FFF">
-    <span class="em-text">れーぞく全方位シューティングゲーム</span>
+    <span class="em-text">{$t('necromance.subtitle')}</span>
     <h2 class="em-text">
-      <Lines string="れーぞく！ ネクロマンスちゃん" />
+      <Lines string="{$t('necromance.title')}" />
     </h2>
     <p class="description">
-      <Lines string="スーパースターマイン 第一作目の STG。 敵弾を スレスレで かわすことで 強大な 必殺技を ブッ放せる 『れーぞくシステム』 を搭載。 リスクと リターンの 取捨選択に 手に汗握る、 白熱した バトルを 楽しめる。" />
+      <Lines string="{$t('necromance.description')}" />
     </p>
-    <Button target="necromance">ティザーサイトへ</Button>
+    <Button target="necromance">{$t('hero.button')}</Button>
   </div>
 </div>
 
