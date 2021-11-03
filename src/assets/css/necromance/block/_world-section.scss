@@ -1,0 +1,61 @@
+@use "../break";
+
+/*
+  ワールドセクション
+*/
+
+.world-section {
+	&__block01 {
+		display: flex;
+		position: relative;
+		.filled-sentence {
+			:global(p:first-of-type) {
+				@include break.sm {
+					margin-top: 10em;
+				}
+			}
+			:global(p + p) {
+				margin-top: 2em;
+				@include break.sm {
+					margin-top: 1em;
+				}
+			}
+		}
+		&__img {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: -2;
+			img {
+				max-height: 250px;
+			}
+		}
+	}
+	&__block02 {
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+		.filled-sentence {
+			:global(p:first-of-type) {
+				@include break.sm {
+					margin-top: 10em;
+				}
+			}
+			:global(p + p) {
+				margin-top: 2em;
+				@include break.sm {
+					margin-top: 1em;
+				}
+			}
+		}
+		&__img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -2;
+			img {
+				max-height: 400px;
+			}
+		}
+	}
+}

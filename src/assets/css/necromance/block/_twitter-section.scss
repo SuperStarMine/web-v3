@@ -1,0 +1,14 @@
+/*
+  Twitterセクション
+*/
+
+.twitter-section {
+  text-align: center;
+
+  &__followText {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 2em;
+  }
+}

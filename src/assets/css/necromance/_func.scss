@@ -1,0 +1,7 @@
+@mixin headingHatColor($color: #1e1054) {
+  .heading {
+    &:after {
+      background-color: $color;
+    }
+  }
+}
