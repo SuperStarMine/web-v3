@@ -1,0 +1,62 @@
+@use "../break";
+
+/*
+  シェアセクション
+*/
+
+.share-section {
+  // FIXME: 実装が正しくないので書き直し
+  width: 100%;
+  color: #ffffff;
+  background-color: #2c2f33;
+  display: flex;
+  padding: 20px 0;
+  gap: 80px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @include break.sm {
+    gap: 20px;
+  }
+
+  &__dialogue {
+    display: flex;
+    align-items: center;
+  }
+
+  &__share-buttons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__mini-necromance {
+    display: inline-block;
+    max-height: 100px;
+    margin-right: 30px;
+    @include break.sm {
+      margin-right: 10px;
+    }
+  }
+
+  %__button {
+    display: inline-block;
+    padding: 16px;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
+
+  &__button {
+    @extend %__button;
+
+    &--twitter {
+      @extend %__button;
+      background-color: #1da1f2;
+    }
+
+    &--facebook {
+      @extend %__button;
+      background-color: #0076fb;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/*
+  ゲームシステムセクション
+*/
+
+.system-section {
+  text-align: center;
+
+  &__text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    margin: 2em 0;
+  }
+}
