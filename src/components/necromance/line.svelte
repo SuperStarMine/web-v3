@@ -24,6 +24,7 @@
 </IntersectionObserver>
 
 <style lang="scss">
+@use "../../assets/css/necromance/break";
 p {
   font-size: 1.125em;
   line-height: 200%;
@@ -83,6 +84,21 @@ p {
       right: -5px;
       background-color: #ffffff;
       z-index: -1;
+    }
+  }
+
+  &.text--necro {
+    margin: 3em 0;
+    padding: 0 5px;
+    @include break.sm {
+      margin: 1em 0;
+    }
+    span {
+      font-size: 1.2em;
+      font-weight: bold;
+      &::before {
+        background-color: #ffa220;
+      }
     }
   }
 }
