@@ -1,0 +1,46 @@
+@use "../func";
+
+/*
+  ニュースセクション
+*/
+
+.news-section {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  @include func.headingHatColor(#f2b807);
+
+  &__list {
+  }
+}
+
+.news-item {
+  padding: 1.5em 0;
+  border-top: 0.5px dashed #e2e2e4;
+  &>a {
+    display: block;
+  }
+
+  &:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+  &:last-of-type {
+    padding-bottom: 0;
+  }
+
+  &__date {
+    color: #fff;
+  }
+
+  &__heading {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0.5em;
+  }
+
+  &__text {
+    margin-top: 0.5em;
+    color: #fff;
+  }
+}

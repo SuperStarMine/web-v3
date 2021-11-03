@@ -1,0 +1,12 @@
+/*
+  Discordセクション
+*/
+
+.discord-section {
+  text-align: center;
+  .filled-sentence {
+    p + p {
+      margin-top: 2em;
+    }
+  }
+}

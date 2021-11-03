@@ -1,0 +1,22 @@
+/*
+  れーぞく！ネクロマンスちゃん
+*/
+
+// main
+@use "layouts";
+@use "typography";
+@use "animation";
+@use "button";
+
+// blocks
+@use "block/nav";
+@use "block/hero-section";
+@use "block/movie-section";
+@use "block/news-section";
+@use "block/world-section";
+@use "block/characters-section";
+@use "block/system-section";
+@use "block/discord-section";
+@use "block/twitter-section";
+@use "block/share-section";
+@use "block/footer";

@@ -1,0 +1,69 @@
+@use "break";
+
+/*
+  typography
+*/
+
+// 背景付きテキスト
+.filled-sentence {
+	&--english {
+		p {
+			letter-spacing: 0 !important;
+		}
+	}
+}
+
+// 帽子をかぶったヘッダー
+.heading {
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	margin: 29px 0 2.5em 0;
+	overflow: visible;
+	z-index: 1;
+
+	&--left {
+		text-align: left;
+	}
+
+	&--center {
+		text-align: center;
+	}
+
+	&--right {
+		text-align: right;
+	}
+
+	h2 {
+		font-family: 'buena-park-jf', serif;
+		text-transform: uppercase;
+		font-size: 3em;
+		line-height: 1em;
+		letter-spacing: 1px;
+		z-index: 3;
+		@include break.sm {
+			font-size: 9vw;
+		}
+	}
+	span {
+		letter-spacing: 1px;
+		z-index: 3;
+	}
+
+	&::after {
+		z-index: -1;
+		position: absolute;
+		width: 91.5px;
+		height: 58px;
+		top: -29px;
+		right: -30px;
+		display: block;
+		content: '';
+		background-color: #1e1054;
+		-webkit-mask: url('../assets/img/necromance/necromance_heading_hat.svg');
+		mask: url('../assets/img/necromance/necromance_heading_hat.svg');
+		-webkit-mask-size: cover;
+		mask-size: cover;
+		user-select: none;
+	}
+}

@@ -1,0 +1,75 @@
+@use "../break";
+
+/*
+  ワールドセクション
+*/
+
+.world-section {
+  &__block01 {
+    display: flex;
+    position: relative;
+    .filled-sentence {
+      p:first-of-type {
+        @include break.sm {
+          margin-top: 10em;
+        }
+      }
+      p + p {
+        margin-top: 2em;
+        @include break.sm {
+          margin-top: 1em;
+        }
+      }
+    }
+    &__img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -2;
+      img {
+        max-height: 250px;
+      }
+    }
+  }
+  &__block02 {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    .filled-sentence {
+      p:first-of-type {
+        @include break.sm {
+          margin-top: 10em;
+        }
+      }
+      p + p {
+        margin-top: 2em;
+        @include break.sm {
+          margin-top: 1em;
+        }
+      }
+    }
+    &__img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -2;
+      img {
+        max-height: 400px;
+      }
+    }
+    .text--necro {
+      margin: 3em 0;
+      padding: 0 5px;
+      @include break.sm {
+        margin: 1em 0;
+      }
+      span {
+        font-size: 1.2em;
+        font-weight: bold;
+        &::before {
+          background-color: #ffa220;
+        }
+      }
+    }
+  }
+}
